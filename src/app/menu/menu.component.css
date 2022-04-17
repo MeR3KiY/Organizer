@@ -1,0 +1,27 @@
+.container {
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu__item {
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 13px;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(14, 92, 92);
+}
